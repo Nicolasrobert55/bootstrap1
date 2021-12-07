@@ -9,22 +9,64 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>segunda pagina</title>
 </head>
-<body>
-    <h2>vamos a ver que pasa</h2>
+<body class="bg-success p-2 text-dark bg-opacity-50">
+    <h2 class="subtitulo text-center">vamos a ver que pasa</h2>
     <header>
-        
-
+        <nav class="navbar navbar-dark">
+            <ul type="none">                
+                <li><a href="index.html">pagina principal</a></li>
+            </ul>            
+        </nav>        
     </header>
     <main>
         <section>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      primario
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Las organizaciones socioambientales.</strong>vienen luchando hace años por la sanción de determinados marcos normativos que entiendan a la naturaleza y al ambiente en clave de derechos. Frente a la sostenida destrucción ambiental resulta indispensable la presencia de un<code> Estado que regule</code>,y también proteja los bienes naturales ante la concepción utilitarista de un modelo de producción que entiende a los territorios como meros reservorios de “recursos” para su extracción a gran escala.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      secundario
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Resultado de imagen para texto de la naturaleza.</strong>La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico, la materia inerte generada como parte de procesos sin la intervención humana, y al fenómeno de la vida, que incluye también a los humanos. <code>¿Qué es la naturaleza resumen corto?</code>
+                      
 
+
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      terciario
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>¿Qué es la biodiversidad? Es la diversidad de especies de plantas.</strong> , animales, hongos y microorganismos que viven en un espacio determinado, su variabilidad genética, los ecosistemas de los cuales forman parte estas especies y los paisajes o regiones en donde se ubican los ecosistemas. La biodiversidad tiene un papel importante en la identidad de sus ciudadanos, en su producción y en el desarrollo cultural; es una fuente de nspiración, producción y recreación para distintos grupos humanos.<code>En el ámbito cultural y artístico la diversidad</code>de formas de vida constituye la base del conocimiento, creencias religiosas o filosóficas, que orientan el estilo de vida de las personas: es importante cuidarla ya que ponemos en peligro nuestra propia existencia como especie.                      
+  
+                    </div>
+                 
         </section>
     </main>
 
     <footer>
-        <ul>
-            <li><a href="index.html">pagina principal</a></li>
-        </ul>
+        <div class="container-fluid bg-light text-center p-3">
+            <p class="small">&copy;todos los derechos reservados 
+       
     </footer>
     <!--links js con bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
