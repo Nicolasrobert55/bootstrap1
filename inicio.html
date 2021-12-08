@@ -1,80 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--links bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>inicio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--links bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  <title>inicio</title>
 </head>
+
 <body class="bg-success p-2 text-dark bg-opacity-50">
-    <h2 class="subtitulo text-center">vamos a ver que pasa</h2>
-    <header>
-        <nav class="navbar navbar-dark">
-            <ul type="none">                
-                <li><a href="index.html">pagina principal</a></li>
-            </ul>            
-        </nav>        
-    </header>
-    <main>
-        <section>
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      primario
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>Las organizaciones socioambientales.</strong>vienen luchando hace años por la sanción de determinados marcos normativos que entiendan a la naturaleza y al ambiente en clave de derechos. Frente a la sostenida destrucción ambiental resulta indispensable la presencia de un<code> Estado que regule</code>,y también proteja los bienes naturales ante la concepción utilitarista de un modelo de producción que entiende a los territorios como meros reservorios de “recursos” para su extracción a gran escala.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      secundario
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>Resultado de imagen para texto de la naturaleza.</strong>La naturaleza es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico, la materia inerte generada como parte de procesos sin la intervención humana, y al fenómeno de la vida, que incluye también a los humanos. <code>¿Qué es la naturaleza resumen corto?</code>                    
 
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      terciario
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>¿Qué es la biodiversidad? Es la diversidad de especies de plantas.</strong> , animales, hongos y microorganismos que viven en un espacio determinado, su variabilidad genética, los ecosistemas de los cuales forman parte estas especies y los paisajes o regiones en donde se ubican los ecosistemas. La biodiversidad tiene un papel importante en la identidad de sus ciudadanos, en su producción y en el desarrollo cultural; es una fuente de nspiración, producción y recreación para distintos grupos humanos.<code>En el ámbito cultural y artístico la diversidad</code>de formas de vida constituye la base del conocimiento, creencias religiosas o filosóficas, que orientan el estilo de vida de las personas: es importante cuidarla ya que ponemos en peligro nuestra propia existencia como especie.                      
-  
-                    </div>
-                 
-        </section>
-    </main>
+  <header>
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <h2 class="text-white h4">probando bootstrap</h2>
+        <ul type="none">
+          <li><a href="index.html">pagina principal</a></li>
+          <li><a href="contacto.html">contacto</a></li>
+          <li><a href="acerca de nosotros.html">acerca de nosotros</a></li>
+          <li><a href="registrarse.html">registrarse</a></li>
+        </ul>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <nav class="navbar navbar-dark">
 
-    <footer>
-        <div class="container-fluid bg-light text-center p-3">
-            <p class="small">&copy;todos los derechos reservados
-            <ul type="none">
-                <li><a href="index.html">pagina principal</a></li>
-                <li><a href="contacto.html">contacto</a></li>
-                <li><a href="acerca de nosotros.html">acerca de nosotros</a></li>
-                <li><a href="registrarse.html">registrarse</a></li>
-            </ul> 
-       
-    </footer>
-    <!--links js con bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              primario
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Las organizaciones socioambientales.</strong>vienen luchando hace años por la sanción de
+              determinados marcos normativos que entiendan a la naturaleza y al ambiente en clave de derechos. Frente a
+              la sostenida destrucción ambiental resulta indispensable la presencia de
+              un<code> Estado que regule</code>,y también proteja los bienes naturales ante la concepción utilitarista
+              de un modelo de producción que entiende a los territorios como meros reservorios de “recursos” para su
+              extracción a gran escala.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              secundario
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Resultado de imagen para texto de la naturaleza.</strong>La naturaleza es un concepto utilizado
+              para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico, la
+              materia inerte generada como parte de procesos sin la intervención humana, y al fenómeno de la vida, que
+              incluye también a los humanos. <code>¿Qué es la naturaleza resumen corto?</code>
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              terciario
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>¿Qué es la biodiversidad? Es la diversidad de especies de plantas.</strong> , animales, hongos y
+              microorganismos que viven en un espacio determinado, su variabilidad genética, los ecosistemas de los
+              cuales forman parte estas especies y los paisajes o regiones en donde se ubican los ecosistemas. La
+              biodiversidad tiene un papel importante en la identidad de sus ciudadanos, en su producción y en el
+              desarrollo cultural; es una fuente de nspiración, producción y recreación para distintos grupos
+              humanos.<code>En el ámbito cultural y artístico la diversidad</code>de formas de vida constituye la base
+              del conocimiento, creencias religiosas o filosóficas, que orientan el estilo de vida de las personas: es
+              importante cuidarla ya que ponemos en peligro nuestra propia existencia como especie.
+
+            </div>
+
+    </section>
+  </main>
+
+
+  <footer>
+    <div class="container-fluid bg-light text-center p-3">
+      <p class="small">&copy;todos los derechos reservados
+      <ul type="none">
+        <li><a href="index.html">pagina principal</a></li>
+        <li><a href="contacto.html">contacto</a></li>
+        <li><a href="acerca de nosotros.html">acerca de nosotros</a></li>
+        <li><a href="registrarse.html">registrarse</a></li>
+      </ul>
+
+  </footer>
+  <!--links js con bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
